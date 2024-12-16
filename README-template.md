@@ -32,7 +32,7 @@ The goal of this project was to create a functional advice generator that meets 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/advice-slip-UDFAtuZHlY))
 - Live Site URL: [Click here to view here]([https://your-live-site-url.com](https://aalphakeem-adroit.github.io/adviceslip/))
 
 ## My process
