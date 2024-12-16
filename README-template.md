@@ -33,7 +33,7 @@ The goal of this project was to create a functional advice generator that meets 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here to view here]([https://your-live-site-url.com](https://aalphakeem-adroit.github.io/adviceslip/))
 
 ## My process
 
