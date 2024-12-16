@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+}
+
+.container {
+    background-color: hsl(218, 23%, 16%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    background-color: var(--GrayishBlue);
+    width: 800px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.adviceSlip {
+    color: var(--NeonGreen);
+    margin-bottom: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    color: var(--LightCyan);
+    margin-bottom: 60px;
+    font-family: "manrope", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 32px;
+    height: 100px;
+}
+
+
+.lineGroup {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    margin: 0px 10px;
+    border: 1px solid var(--LightCyan);
+    opacity: .2;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.upLine {
+    width: 5px;
+    background-color: var(--LightCyan);
+    height: 15px;
+    border-radius: 2px;  
+}
+
+.upLineRight {
+    margin-right: 4px;
+}
+
+button {
+    background-color: var(--NeonGreen);
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    margin-bottom: -370px;
+    z-index: 1;
+}
+
+button:hover {
+    box-shadow: 0 0px 20px 0 var(--NeonGreen), 0 0px 20px 0 var(--NeonGreen);
+}
+
+button > img {
+    width: 20px;
+}
+
+@media only screen and (max-width: 840px) {
+    .card {
+        width: 600px;
+        margin: auto 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 400px;
+        margin: auto 50px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .card {
+        width: 355px;
+        margin: auto 50px;
+    }
+}
