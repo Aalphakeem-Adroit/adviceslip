@@ -128,10 +128,13 @@ button > img {
     .card {
         width: 400px;
         margin: auto 50px;
+        padding-right: 25px;
+        padding-left: 25px;
     }
 
     h2 {
         height: 300px;
+        font-size: 28px;
     }
     
     button {
@@ -141,15 +144,30 @@ button > img {
 
 @media only screen and (max-width: 450px) {
     .card {
-        width: 355px;
+        width: 350px;
         margin: auto 50px;
+        padding-right: 25px;
+        padding-left: 25px;
     }
 
     h2 {
         height: 300px;
+        font-size: 28px;
     }
     
     button {
         margin-bottom: -570px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .card {
+        width: 300px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    h2 {
+        font-size: 28px;
     }
 }
