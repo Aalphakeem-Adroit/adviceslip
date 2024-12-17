@@ -32,8 +32,13 @@ The goal of this project was to create a functional advice generator that meets 
 
 ### Links
 
+<<<<<<< HEAD:README.md
 - Solution URL: [Click here to view](https://your-solution-url.com)
 - Live Site URL: [Clik here to view](https://aalphakeem-adroit.github.io/adviceslip/)
+=======
+- Solution URL: [solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/advice-slip-UDFAtuZHlY))
+- Live Site URL: [Click here to view here]([https://your-live-site-url.com](https://aalphakeem-adroit.github.io/adviceslip/))
+>>>>>>> 1ad60ab3be2c95f0ceaa379b5d0d59e2d52c4c31:README-template.md
 
 ## My process
 
