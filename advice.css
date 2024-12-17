@@ -114,6 +114,14 @@ button > img {
         width: 600px;
         margin: auto 50px;
     }
+
+    h2 {
+        height: 150px;
+    }
+    
+    button {
+        margin-bottom: -430px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -121,11 +129,27 @@ button > img {
         width: 400px;
         margin: auto 50px;
     }
-}
+
+    h2 {
+        height: 300px;
+    }
+    
+    button {
+        margin-bottom: -570px;
+    }
+}   
 
 @media only screen and (max-width: 450px) {
     .card {
         width: 355px;
         margin: auto 50px;
+    }
+
+    h2 {
+        height: 300px;
+    }
+    
+    button {
+        margin-bottom: -570px;
     }
 }
